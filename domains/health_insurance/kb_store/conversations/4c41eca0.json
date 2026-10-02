@@ -1,0 +1,53 @@
+{
+  "session_id": "4c41eca0",
+  "started_at": "2026-10-01T16:11:05.702154+00:00",
+  "ended_at": "2026-10-01T16:11:57.391482+00:00",
+  "outcome": "user_terminated",
+  "qualification_state": {
+    "name": "Andrew",
+    "age": null,
+    "has_pre_existing": null,
+    "coverage_interest": null,
+    "phone": null,
+    "consent_given": true,
+    "eligible": null,
+    "ineligibility_reason": null,
+    "flags": [],
+    "conflicts_detected": []
+  },
+  "turns": [
+    {
+      "ts": "2026-10-01T16:11:05.702233+00:00",
+      "speaker": "agent",
+      "text": "Hello! Thank you for calling HealthShield. My name is Aria, your HealthShield AI assistant. This call may be recorded for quality assurance. I'm here to help you explore our health insurance plans. May I ask your name, please?"
+    },
+    {
+      "ts": "2026-10-01T16:11:37.915560+00:00",
+      "speaker": "customer",
+      "text": "My name is Andrew"
+    },
+    {
+      "ts": "2026-10-01T16:11:37.915831+00:00",
+      "speaker": "agent",
+      "text": "Lovely to meet you, Andrew! To help find the right HealthShield plan for you, could I ask how old you are?",
+      "metadata": {
+        "state": "lead_qualification",
+        "turn": 1,
+        "qualification_profile": {
+          "name": "Andrew",
+          "age": null,
+          "has_pre_existing": null,
+          "coverage_interest": null,
+          "phone": null,
+          "consent_given": true,
+          "eligible": null,
+          "ineligibility_reason": null,
+          "flags": [],
+          "conflicts_detected": []
+        },
+        "ended": false,
+        "escalated": false
+      }
+    }
+  ]
+}
